@@ -35,12 +35,3 @@ else :
     x2 = (-valB - valArrelDisc)/ (2 * valA)
     print("ja tenim la solució d'aquesta equacio de 2n grau!!!!")
     print(x1, x2)
-    
-    
-    
-
-    
-    
-        
-
-
