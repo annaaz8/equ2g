@@ -25,7 +25,7 @@ if valDiscriminant < 0 :
     print("Aquesta equació malauradament no té solució")
 else :
     valArrelDisc = math.sqrt(valDiscriminant)
-    print(valArrelDisc)
+    print("I el valor de la seva arrel quadrada és:", valArrelDisc)
     x1 = (-valB + valArrelDisc) / (2 * valA)
     print("Ja tenim la solució d'aquesta equació de 2n grau!!")
     if valDiscriminant == 0 :
