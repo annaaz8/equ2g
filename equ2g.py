@@ -1,38 +1,34 @@
 import math
-
-print("benvingudes al programa de resolucio d'equacions de 2n grau")
+print("ANNA AN i ONA VILÀ, 2n ESO B")
+print("Benvinguts al programa de resolució d'equacions de 2n grau")
 print("tipus ax2 + bx + c = 0")
 
 textA = input("ENTRA a ")
 textB = input("ENTRA b ")
 textC = input("ENTRA c ")
 
-print("el valor de a es:", textA)
-print("el valor de b es:", textB)
-print("el valor de c es:", textC)
+print("El valor de a és:", textA)
+print("El valor de b és:", textB)
+print("El valor de c és:", textC)
 
 valA = int(textA)
 valB = int(textB)
 valC = int(textC)
 
-print("valor entrats correctes, molt be!")
-
-print("el valor de a es:", valA)
-print("el valor de b es:", valB)
-print("el valor de c es:", valC)
+print("Valor entrats correctes, molt bé!")
 
 valDiscriminant = valB * valB - 4 * valA * valC
 
-print("el valor del discriminant es:", valDiscriminant)
+print("El valor del discriminant és:", valDiscriminant)
 
 if valDiscriminant < 0 :
-    print("aquesta equacio malauradament no te solucio")
+    print("Aquesta equació malauradament no té solució")
 else :
-    print("seguim")
+    print("seguim...")
     valArrelDisc = math.sqrt(valDiscriminant)
     print(valArrelDisc)
     x1 = (-valB + valArrelDisc)/ (2 * valA)
     x2 = (-valB - valArrelDisc)/ (2 * valA)
-    print("ja tenim la solució d'aquesta equacio de 2n grau!!!!")
+    print("Ja tenim la solució d'aquesta equació de 2n grau!!")
     print(x1, x2)
-print("Gracies per emprar el programa, esperem que us hagi resolt els dubtes!")
+    
