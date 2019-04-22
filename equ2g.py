@@ -24,11 +24,13 @@ print("El valor del discriminant és:", valDiscriminant)
 if valDiscriminant < 0 :
     print("Aquesta equació malauradament no té solució")
 else :
-    print("seguim...")
     valArrelDisc = math.sqrt(valDiscriminant)
     print(valArrelDisc)
-    x1 = (-valB + valArrelDisc)/ (2 * valA)
-    x2 = (-valB - valArrelDisc)/ (2 * valA)
+    x1 = (-valB + valArrelDisc) / (2 * valA)
     print("Ja tenim la solució d'aquesta equació de 2n grau!!")
-    print(x1, x2)
-    
+    if valDiscriminant == 0 :
+        print(x1)
+    else:
+        x2 = (-valB - valArrelDisc) / (2 * valA)
+        print(x1, x2)
+     
